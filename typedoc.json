@@ -1,0 +1,13 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "@awesome-algorand/mdast",
+  "customFooterHtml": "Copyright <strong>Awesome Algorand</strong> 2025",
+  "tsconfig": "tsconfig.app.json",
+  "hideGenerator": true,
+  "excludeInternal": true,
+  "requiredToBeDocumented": ["Function", "Class", "Interface", "Module"],
+  "highlightLanguages": ["markdown", "typescript", "bash", "json"],
+  "entryPoints": [
+    "./src/index.ts"
+  ]
+}
