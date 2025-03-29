@@ -1,8 +1,8 @@
 <a href="https://github.com/awesome-algorand/awesome-algorand"><img style="width:100%;" src="https://ipfs.algonode.xyz/ipfs/QmfTGB4EFu1FypcZEWWgs3jCmFw75MrqezVV7oQbnbQPyQ" /></a>
 
-[![CI](https://github.com/awesomealgorand/mdast/actions/workflows/CI.yml/badge.svg)](https://github.com/awesomealgorand/mdast/actions/workflows/CI.yml)
-[![Publish Package](https://github.com/awesomealgorand/mdast/actions/workflows/CD.yml/badge.svg)](https://github.com/awesomealgorand/mdast/actions/workflows/CD.yml)
-[![codecov](https://codecov.io/gh/awesomealgorand/mdast/graph/badge.svg?token=AKN7VATWTO)](https://codecov.io/gh/awesomealgorand/mdast)
+[![CI](https://github.com/awesome-algorand/mdast/actions/workflows/CI.yml/badge.svg)](https://github.com/awesome-algorand/mdast/actions/workflows/CI.yml)
+[![Publish Package](https://github.com/awesome-algorand/mdast/actions/workflows/CD.yml/badge.svg)](https://github.com/awesome-algorand/mdast/actions/workflows/CD.yml)
+[![codecov](https://codecov.io/gh/awesome-algorand/mdast/graph/badge.svg?token=AKN7VATWTO)](https://codecov.io/gh/awesome-algorand/mdast)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 `@awesome-algorand/mdast` contains methods for parsing the Awesome Algorand List specification
@@ -12,7 +12,7 @@
 Installing
 
 ```bash
-npm install @awesomealgorand/mdast --save
+npm install @awesome-algorand/mdast --save
 ```
 
 Generating the Collection
@@ -21,8 +21,8 @@ Generating the Collection
 import { micromark } from 'micromark';
 import { toMarkdown } from 'mdast-util-to-markdown';
 
-import { fromString } from '@awesomealgorand/mdast/root';
-import { fromRoots } from '@awesomealgorand/mdast/object';
+import { fromString } from '@awesome-algorand/mdast/root';
+import { fromRoots } from '@awesome-algorand/mdast/object';
 
 // Fetch the README
 const README = await fetch(
