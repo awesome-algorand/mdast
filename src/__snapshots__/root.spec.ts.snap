@@ -1,0 +1,1728 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@awesome-algorand/mdast/root > (OK) snapshot 1`] = `
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 22,
+                "line": 1,
+                "offset": 21,
+              },
+              "start": {
+                "column": 4,
+                "line": 1,
+                "offset": 3,
+              },
+            },
+            "type": "text",
+            "value": "Category with List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-list",
+        },
+        "depth": 2,
+        "position": {
+          "end": {
+            "column": 22,
+            "line": 1,
+            "offset": 21,
+          },
+          "start": {
+            "column": 1,
+            "line": 1,
+            "offset": 0,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 3,
+                            "offset": 30,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 3,
+                            "offset": 26,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 3,
+                        "offset": 52,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 3,
+                        "offset": 25,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 3,
+                        "offset": 187,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 3,
+                        "offset": 52,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 3,
+                    "offset": 187,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 3,
+                    "offset": 25,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 3,
+                "offset": 187,
+              },
+              "start": {
+                "column": 1,
+                "line": 3,
+                "offset": 23,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 4,
+                            "offset": 195,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 4,
+                            "offset": 191,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 4,
+                        "offset": 217,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 4,
+                        "offset": 190,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 4,
+                        "offset": 352,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 4,
+                        "offset": 217,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 4,
+                    "offset": 352,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 4,
+                    "offset": 190,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 4,
+                "offset": 352,
+              },
+              "start": {
+                "column": 1,
+                "line": 4,
+                "offset": 188,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-list",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 4,
+            "offset": 352,
+          },
+          "start": {
+            "column": 1,
+            "line": 3,
+            "offset": 23,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+    ],
+    "data": {
+      "category": "category-with-list",
+    },
+    "type": "root",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 38,
+                "line": 6,
+                "offset": 391,
+              },
+              "start": {
+                "column": 4,
+                "line": 6,
+                "offset": 357,
+              },
+            },
+            "type": "text",
+            "value": "Category with Block Quote and List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-list",
+        },
+        "depth": 2,
+        "position": {
+          "end": {
+            "column": 38,
+            "line": 6,
+            "offset": 391,
+          },
+          "start": {
+            "column": 1,
+            "line": 6,
+            "offset": 354,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "position": {
+                  "end": {
+                    "column": 79,
+                    "line": 8,
+                    "offset": 471,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 8,
+                    "offset": 395,
+                  },
+                },
+                "type": "text",
+                "value": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 79,
+                "line": 8,
+                "offset": 471,
+              },
+              "start": {
+                "column": 3,
+                "line": 8,
+                "offset": 395,
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-list",
+        },
+        "position": {
+          "end": {
+            "column": 79,
+            "line": 8,
+            "offset": 471,
+          },
+          "start": {
+            "column": 1,
+            "line": 8,
+            "offset": 393,
+          },
+        },
+        "type": "blockquote",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 10,
+                            "offset": 480,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 10,
+                            "offset": 476,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 10,
+                        "offset": 502,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 10,
+                        "offset": 475,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 10,
+                        "offset": 637,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 10,
+                        "offset": 502,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 10,
+                    "offset": 637,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 10,
+                    "offset": 475,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 10,
+                "offset": 637,
+              },
+              "start": {
+                "column": 1,
+                "line": 10,
+                "offset": 473,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 11,
+                            "offset": 645,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 11,
+                            "offset": 641,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 11,
+                        "offset": 667,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 11,
+                        "offset": 640,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 11,
+                        "offset": 802,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 11,
+                        "offset": 667,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 11,
+                    "offset": 802,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 11,
+                    "offset": 640,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 11,
+                "offset": 802,
+              },
+              "start": {
+                "column": 1,
+                "line": 11,
+                "offset": 638,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-list",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 11,
+            "offset": 802,
+          },
+          "start": {
+            "column": 1,
+            "line": 10,
+            "offset": 473,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+    ],
+    "data": {
+      "category": "category-with-block-quote-and-list",
+    },
+    "type": "root",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 31,
+                "line": 13,
+                "offset": 834,
+              },
+              "start": {
+                "column": 4,
+                "line": 13,
+                "offset": 807,
+              },
+            },
+            "type": "text",
+            "value": "Category with Subcategories",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "depth": 2,
+        "position": {
+          "end": {
+            "column": 31,
+            "line": 13,
+            "offset": 834,
+          },
+          "start": {
+            "column": 1,
+            "line": 13,
+            "offset": 804,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 26,
+                "line": 15,
+                "offset": 861,
+              },
+              "start": {
+                "column": 5,
+                "line": 15,
+                "offset": 840,
+              },
+            },
+            "type": "text",
+            "value": "SubCategory with List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "depth": 3,
+        "position": {
+          "end": {
+            "column": 26,
+            "line": 15,
+            "offset": 861,
+          },
+          "start": {
+            "column": 1,
+            "line": 15,
+            "offset": 836,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 17,
+                            "offset": 870,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 17,
+                            "offset": 866,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 17,
+                        "offset": 892,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 17,
+                        "offset": 865,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 17,
+                        "offset": 1027,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 17,
+                        "offset": 892,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 17,
+                    "offset": 1027,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 17,
+                    "offset": 865,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 17,
+                "offset": 1027,
+              },
+              "start": {
+                "column": 1,
+                "line": 17,
+                "offset": 863,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 18,
+                            "offset": 1035,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 18,
+                            "offset": 1031,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 18,
+                        "offset": 1057,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 18,
+                        "offset": 1030,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 18,
+                        "offset": 1192,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 18,
+                        "offset": 1057,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 18,
+                    "offset": 1192,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 18,
+                    "offset": 1030,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 18,
+                "offset": 1192,
+              },
+              "start": {
+                "column": 1,
+                "line": 18,
+                "offset": 1028,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 18,
+            "offset": 1192,
+          },
+          "start": {
+            "column": 1,
+            "line": 17,
+            "offset": 863,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 42,
+                "line": 20,
+                "offset": 1235,
+              },
+              "start": {
+                "column": 5,
+                "line": 20,
+                "offset": 1198,
+              },
+            },
+            "type": "text",
+            "value": "SubCategory with Block Quote and List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "depth": 3,
+        "position": {
+          "end": {
+            "column": 42,
+            "line": 20,
+            "offset": 1235,
+          },
+          "start": {
+            "column": 1,
+            "line": 20,
+            "offset": 1194,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "position": {
+                  "end": {
+                    "column": 79,
+                    "line": 22,
+                    "offset": 1315,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 22,
+                    "offset": 1239,
+                  },
+                },
+                "type": "text",
+                "value": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 79,
+                "line": 22,
+                "offset": 1315,
+              },
+              "start": {
+                "column": 3,
+                "line": 22,
+                "offset": 1239,
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "position": {
+          "end": {
+            "column": 79,
+            "line": 22,
+            "offset": 1315,
+          },
+          "start": {
+            "column": 1,
+            "line": 22,
+            "offset": 1237,
+          },
+        },
+        "type": "blockquote",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 24,
+                            "offset": 1324,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 24,
+                            "offset": 1320,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 24,
+                        "offset": 1346,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 24,
+                        "offset": 1319,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 24,
+                        "offset": 1481,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 24,
+                        "offset": 1346,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 24,
+                    "offset": 1481,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 24,
+                    "offset": 1319,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 24,
+                "offset": 1481,
+              },
+              "start": {
+                "column": 1,
+                "line": 24,
+                "offset": 1317,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 25,
+                            "offset": 1489,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 25,
+                            "offset": 1485,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 25,
+                        "offset": 1511,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 25,
+                        "offset": 1484,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 25,
+                        "offset": 1646,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 25,
+                        "offset": 1511,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 25,
+                    "offset": 1646,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 25,
+                    "offset": 1484,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 25,
+                "offset": 1646,
+              },
+              "start": {
+                "column": 1,
+                "line": 25,
+                "offset": 1482,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-subcategories",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 25,
+            "offset": 1646,
+          },
+          "start": {
+            "column": 1,
+            "line": 24,
+            "offset": 1317,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+    ],
+    "data": {
+      "category": "category-with-subcategories",
+    },
+    "type": "root",
+  },
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 47,
+                "line": 27,
+                "offset": 1694,
+              },
+              "start": {
+                "column": 4,
+                "line": 27,
+                "offset": 1651,
+              },
+            },
+            "type": "text",
+            "value": "Category with Block Quote and Subcategories",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "depth": 2,
+        "position": {
+          "end": {
+            "column": 47,
+            "line": 27,
+            "offset": 1694,
+          },
+          "start": {
+            "column": 1,
+            "line": 27,
+            "offset": 1648,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "position": {
+                  "end": {
+                    "column": 79,
+                    "line": 29,
+                    "offset": 1774,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 29,
+                    "offset": 1698,
+                  },
+                },
+                "type": "text",
+                "value": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 79,
+                "line": 29,
+                "offset": 1774,
+              },
+              "start": {
+                "column": 3,
+                "line": 29,
+                "offset": 1698,
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "position": {
+          "end": {
+            "column": 79,
+            "line": 29,
+            "offset": 1774,
+          },
+          "start": {
+            "column": 1,
+            "line": 29,
+            "offset": 1696,
+          },
+        },
+        "type": "blockquote",
+      },
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 26,
+                "line": 31,
+                "offset": 1801,
+              },
+              "start": {
+                "column": 5,
+                "line": 31,
+                "offset": 1780,
+              },
+            },
+            "type": "text",
+            "value": "SubCategory with List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "depth": 3,
+        "position": {
+          "end": {
+            "column": 26,
+            "line": 31,
+            "offset": 1801,
+          },
+          "start": {
+            "column": 1,
+            "line": 31,
+            "offset": 1776,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 33,
+                            "offset": 1810,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 33,
+                            "offset": 1806,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 33,
+                        "offset": 1832,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 33,
+                        "offset": 1805,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 33,
+                        "offset": 1967,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 33,
+                        "offset": 1832,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 33,
+                    "offset": 1967,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 33,
+                    "offset": 1805,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 33,
+                "offset": 1967,
+              },
+              "start": {
+                "column": 1,
+                "line": 33,
+                "offset": 1803,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 34,
+                            "offset": 1975,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 34,
+                            "offset": 1971,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 34,
+                        "offset": 1997,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 34,
+                        "offset": 1970,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 34,
+                        "offset": 2132,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 34,
+                        "offset": 1997,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 34,
+                    "offset": 2132,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 34,
+                    "offset": 1970,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 34,
+                "offset": 2132,
+              },
+              "start": {
+                "column": 1,
+                "line": 34,
+                "offset": 1968,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 34,
+            "offset": 2132,
+          },
+          "start": {
+            "column": 1,
+            "line": 33,
+            "offset": 1803,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+      {
+        "children": [
+          {
+            "position": {
+              "end": {
+                "column": 45,
+                "line": 36,
+                "offset": 2178,
+              },
+              "start": {
+                "column": 6,
+                "line": 36,
+                "offset": 2139,
+              },
+            },
+            "type": "text",
+            "value": "Deep Category with Block Quote and List",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "depth": 4,
+        "position": {
+          "end": {
+            "column": 45,
+            "line": 36,
+            "offset": 2178,
+          },
+          "start": {
+            "column": 1,
+            "line": 36,
+            "offset": 2134,
+          },
+        },
+        "type": "heading",
+      },
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "position": {
+                  "end": {
+                    "column": 79,
+                    "line": 38,
+                    "offset": 2258,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 38,
+                    "offset": 2182,
+                  },
+                },
+                "type": "text",
+                "value": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 79,
+                "line": 38,
+                "offset": 2258,
+              },
+              "start": {
+                "column": 3,
+                "line": 38,
+                "offset": 2182,
+              },
+            },
+            "type": "paragraph",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "position": {
+          "end": {
+            "column": 79,
+            "line": 38,
+            "offset": 2258,
+          },
+          "start": {
+            "column": 1,
+            "line": 38,
+            "offset": 2180,
+          },
+        },
+        "type": "blockquote",
+      },
+      {
+        "children": [
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 40,
+                            "offset": 2267,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 40,
+                            "offset": 2263,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 40,
+                        "offset": 2289,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 40,
+                        "offset": 2262,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 40,
+                        "offset": 2424,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 40,
+                        "offset": 2289,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 40,
+                    "offset": 2424,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 40,
+                    "offset": 2262,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 40,
+                "offset": 2424,
+              },
+              "start": {
+                "column": 1,
+                "line": 40,
+                "offset": 2260,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+          {
+            "checked": null,
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {
+                        "position": {
+                          "end": {
+                            "column": 8,
+                            "line": 41,
+                            "offset": 2432,
+                          },
+                          "start": {
+                            "column": 4,
+                            "line": 41,
+                            "offset": 2428,
+                          },
+                        },
+                        "type": "text",
+                        "value": "Item",
+                      },
+                    ],
+                    "position": {
+                      "end": {
+                        "column": 30,
+                        "line": 41,
+                        "offset": 2454,
+                      },
+                      "start": {
+                        "column": 3,
+                        "line": 41,
+                        "offset": 2427,
+                      },
+                    },
+                    "title": null,
+                    "type": "link",
+                    "url": "https://example.com",
+                  },
+                  {
+                    "position": {
+                      "end": {
+                        "column": 165,
+                        "line": 41,
+                        "offset": 2589,
+                      },
+                      "start": {
+                        "column": 30,
+                        "line": 41,
+                        "offset": 2454,
+                      },
+                    },
+                    "type": "text",
+                    "value": " - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.",
+                  },
+                ],
+                "position": {
+                  "end": {
+                    "column": 165,
+                    "line": 41,
+                    "offset": 2589,
+                  },
+                  "start": {
+                    "column": 3,
+                    "line": 41,
+                    "offset": 2427,
+                  },
+                },
+                "type": "paragraph",
+              },
+            ],
+            "position": {
+              "end": {
+                "column": 165,
+                "line": 41,
+                "offset": 2589,
+              },
+              "start": {
+                "column": 1,
+                "line": 41,
+                "offset": 2425,
+              },
+            },
+            "spread": false,
+            "type": "listItem",
+          },
+        ],
+        "data": {
+          "parent": "category-with-block-quote-and-subcategories",
+        },
+        "ordered": false,
+        "position": {
+          "end": {
+            "column": 165,
+            "line": 41,
+            "offset": 2589,
+          },
+          "start": {
+            "column": 1,
+            "line": 40,
+            "offset": 2260,
+          },
+        },
+        "spread": false,
+        "start": null,
+        "type": "list",
+      },
+    ],
+    "data": {
+      "category": "category-with-block-quote-and-subcategories",
+    },
+    "type": "root",
+  },
+]
+`;
