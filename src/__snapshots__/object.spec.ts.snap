@@ -1,0 +1,100 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`@awesome-algorand/mdast/object > (OK) snapshot 1`] = `
+[
+  {
+    "links": [
+      {
+        "description": "Item",
+        "url": "https://example.com",
+      },
+      {
+        "description": "Item",
+        "url": "https://example.com",
+      },
+    ],
+    "title": "Category with List",
+  },
+  {
+    "description": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+    "links": [
+      {
+        "description": "Item",
+        "url": "https://example.com",
+      },
+      {
+        "description": "Item",
+        "url": "https://example.com",
+      },
+    ],
+    "title": "Category with Block Quote and List",
+  },
+  {
+    "subcategories": [
+      {
+        "links": [
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+        ],
+        "title": "SubCategory with List",
+      },
+      {
+        "description": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+        "links": [
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+        ],
+        "title": "SubCategory with Block Quote and List",
+      },
+    ],
+    "title": "Category with Subcategories",
+  },
+  {
+    "description": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+    "subcategories": [
+      {
+        "links": [
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+          {
+            "description": "Item",
+            "url": "https://example.com",
+          },
+        ],
+        "subcategories": [
+          {
+            "description": "Sed sit amet sollicitudin dolor. Donec scelerisque sed tortor sed elementum.",
+            "links": [
+              {
+                "description": "Item",
+                "url": "https://example.com",
+              },
+              {
+                "description": "Item",
+                "url": "https://example.com",
+              },
+            ],
+            "title": "Deep Category with Block Quote and List",
+          },
+        ],
+        "title": "SubCategory with List",
+      },
+    ],
+    "title": "Category with Block Quote and Subcategories",
+  },
+]
+`;

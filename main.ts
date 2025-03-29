@@ -1,6 +1,7 @@
 import { micromark } from 'micromark';
 import { toMarkdown } from 'mdast-util-to-markdown';
 
+import { fromRoots } from '@awesome-algorand/mdast/object';
 import { fromString } from '@awesome-algorand/mdast/root';
 
 // Fetch the README
@@ -14,3 +15,9 @@ const collection = await Promise.all(
   roots.map((x) => micromark(toMarkdown(x))),
 );
 document.getElementById('app')!.innerHTML = collection.join('\n');
+// Render the JSON Object
+document.getElementById('json')!.innerHTML = JSON.stringify(
+  fromRoots(roots),
+  null,
+  2,
+);

@@ -27,6 +27,8 @@ export default defineConfig({
     alias: {
       [pkg.name]: resolve(__dirname, './src'),
       [`${pkg.name}/content`]: resolve(__dirname, './src/content'),
+      [`${pkg.name}/links`]: resolve(__dirname, './src/links'),
+      [`${pkg.name}/object`]: resolve(__dirname, './src/object'),
       [`${pkg.name}/root`]: resolve(__dirname, './src/root'),
     },
   },

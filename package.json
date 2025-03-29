@@ -96,7 +96,7 @@
             "CHANGELOG.md",
             "package.json"
           ],
-          "message": "🔖 [skip ci] @awesomealgorand/mdast \n\n${nextRelease.notes}"
+          "message": "🔖 [skip ci] @awesome-algorand/mdast \n\n${nextRelease.notes}"
         }
       ],
       "@semantic-release/github"

@@ -34,6 +34,8 @@ const roots = fromString(README);
 const collection = await Promise.all(
   fromString(README).map((x) => micromark(toMarkdown(x))),
 );
+// Get the JSON Object
+const obj = fromRoots(roots);
 ```
 
 ## Specification
@@ -88,4 +90,70 @@ const collection = await Promise.all(
 
 - [Item](https://example.com) - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.
 - [Item](https://example.com) - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere aliquam semper. Nulla facilisis mollis dui ac aliquam.
+```
+
+#### Example JSON Object
+
+```json
+[
+  {
+    "title": "Development Tools",
+    "description": "Awesome client libraries, tools, and community utilities.",
+    "subcategories": [
+      {
+        "category": "cli",
+        "links": [
+          {
+            "url": "https://github.com/algorandfoundation/algokit-cli",
+            "description": "AlgoKit CLI"
+          },
+          {
+            "url": "https://github.com/Hipo/tealinspector",
+            "description": "tealinspector"
+          }
+        ]
+      },
+      {
+        "title": "AlgoKit Templates",
+        "description": "AlgoKit templates are a set of starter and production-ready baseline templates for developing and deploying Algorand applications. They are designed to be used as a starting point for developers to quickly bootstrap their projects and focus on the business logic of their applications. Refer to ",
+        "subcategories": [
+          {
+            "title": "Official",
+            "links": [
+              {
+                "url": "https://github.com/algorandfoundation/algokit-beaker-default-template",
+                "description": "algokit-beaker-default-template"
+              },
+              {
+                "url": "https://github.com/algorandfoundation/algokit-python-template",
+                "description": "algokit-python-template"
+              },
+              {
+                "url": "https://github.com/algorandfoundation/algokit-react-frontend-template",
+                "description": "algokit-react-frontend-template"
+              },
+              {
+                "url": "https://github.com/algorandfoundation/algokit-fullstack-template",
+                "description": "algokit-fullstack-template"
+              }
+            ]
+          },
+          {
+            "title": "Community",
+            "links": [
+              {
+                "url": "https://github.com/aorumbayev/algokit-tealish-template",
+                "description": "algokit-tealish-template"
+              },
+              {
+                "url": "https://github.com/GoracleNetwork/algokit_default_template",
+                "description": "algokit-goracle-template"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
 ```
