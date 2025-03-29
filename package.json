@@ -18,6 +18,10 @@
     ".": {
       "types": "./lib/index.d.ts",
       "default": "./lib/index.js"
+    },
+    "./root": {
+      "types": "./lib/root.d.ts",
+      "default": "./lib/root.js"
     }
   },
   "scripts": {

@@ -7,7 +7,5 @@
   "excludeInternal": true,
   "requiredToBeDocumented": ["Function", "Class", "Interface", "Module"],
   "highlightLanguages": ["markdown", "typescript", "bash", "json"],
-  "entryPoints": [
-    "./src/index.ts"
-  ]
+  "entryPoints": ["./src/index.ts", "./src/content.ts", "./src/root.ts"]
 }
