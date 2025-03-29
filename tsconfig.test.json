@@ -12,6 +12,8 @@
     "paths": {
       "@awesome-algorand/mdast": ["./src/index.ts"],
       "@awesome-algorand/mdast/content": ["./src/content.ts"],
+      "@awesome-algorand/mdast/links": ["./src/links.ts"],
+      "@awesome-algorand/mdast/object": ["./src/object.ts"],
       "@awesome-algorand/mdast/root": ["./src/root.ts"]
     }
   },
