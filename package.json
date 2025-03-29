@@ -1,6 +1,6 @@
 {
   "name": "@awesome-algorand/mdast",
-  "version": "0.0.1",
+  "version": "1.0.0-canary.1",
   "description": "Manage the Awesome Algorand README",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
