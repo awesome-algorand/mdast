@@ -1,4 +1,5 @@
-docs
+docs/**
+!docs/_routes.json
 lib
 *.junit.xml
 
