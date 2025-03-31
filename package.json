@@ -26,6 +26,10 @@
     "./root": {
       "types": "./lib/root.d.ts",
       "default": "./lib/root.js"
+    },
+    "./object": {
+      "types": "./lib/object.d.ts",
+      "default": "./lib/object.js"
     }
   },
   "scripts": {
