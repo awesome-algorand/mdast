@@ -1,3 +1,8 @@
+# [v1.0.1-canary.1](https://github.com/awesome-algorand/mdast/compare/v1.0.0...v1.0.1-canary.1) (2025-03-31)
+
+## 🚑 Critical Hotfixes
+- [`dbeda0b`](https://github.com/awesome-algorand/mdast/commit/dbeda0b) ️ Add object module to package export
+
 # v1.0.0 (2025-03-31)
 
 ## ✨ New Features
