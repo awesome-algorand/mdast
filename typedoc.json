@@ -8,7 +8,7 @@
   "requiredToBeDocumented": ["Function", "Class", "Interface", "Module"],
   "highlightLanguages": ["markdown", "typescript", "bash", "json"],
   "githubPages": false,
-  "cleanOutputDir": false,
+  "router": "structure-dir",
   "entryPoints": [
     "./src/index.ts",
     "./src/content.ts",
