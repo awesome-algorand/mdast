@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/awesome-algorand/mdast/actions/workflows/CI.yml/badge.svg)](https://github.com/awesome-algorand/mdast/actions/workflows/CI.yml)
 [![Publish Package](https://github.com/awesome-algorand/mdast/actions/workflows/CD.yml/badge.svg)](https://github.com/awesome-algorand/mdast/actions/workflows/CD.yml)
-[![codecov](https://codecov.io/gh/awesome-algorand/mdast/graph/badge.svg?token=AKN7VATWTO)](https://codecov.io/gh/awesome-algorand/mdast)
+[![codecov](https://codecov.io/gh/awesome-algorand/mdast/branch/main/graph/badge.svg?token=5JDzXc4yyM)](https://codecov.io/gh/awesome-algorand/mdast)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 `@awesome-algorand/mdast` contains methods for parsing the Awesome Algorand List specification
