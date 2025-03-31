@@ -28,8 +28,10 @@ import { fromRoots } from '@awesome-algorand/mdast/object';
 const README = await fetch(
   'https://raw.githubusercontent.com/awesome-algorand/awesome-algorand/refs/heads/main/README.md',
 ).then((res) => res.text());
+// Trim the readme elements to only select the specification
+const trim = 5;
 // Create the array of Roots. This represents the top level nodes
-const roots = fromString(README);
+const roots = fromString(README, trim);
 // Render the Collection
 const collection = await Promise.all(
   fromString(README).map((x) => micromark(toMarkdown(x))),
