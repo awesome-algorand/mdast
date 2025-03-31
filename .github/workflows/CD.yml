@@ -1,7 +1,7 @@
 name: Release
 on:
   push:
-    branches: ['main', 'release/*']
+    branches: ['main', 'release/1.X']
 jobs:
   npm-publish:
     runs-on: ubuntu-latest
