@@ -1,3 +1,9 @@
+# [v1.0.1](https://github.com/awesome-algorand/mdast/compare/v1.0.0...v1.0.1) (2025-03-31)
+
+## 🚑 Critical Hotfixes
+- [`dbeda0b`](https://github.com/awesome-algorand/mdast/commit/dbeda0b) ️ Add object module to package export 
+- [`31bb5a9`](https://github.com/awesome-algorand/mdast/commit/31bb5a9) ️ Remove skip ci from releases
+
 # [v1.0.1-canary.2](https://github.com/awesome-algorand/mdast/compare/v1.0.1-canary.1...v1.0.1-canary.2) (2025-03-31)
 
 ## 🚑 Critical Hotfixes
